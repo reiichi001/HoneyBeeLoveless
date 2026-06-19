@@ -1,0 +1,7 @@
+{
+    "token": "put your bot token here - it needs guild, guild member, and message intents",
+    "honeypotChannels": [
+        "1234567890",
+        "0987654321"
+    ]
+}

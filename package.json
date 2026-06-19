@@ -1,0 +1,31 @@
+{
+  "name": "honeybeeloveless",
+  "version": "0.0.1",
+  "description": "HoneyBeeLoveless is here to deal with your spammers",
+  "main": "HoneyBeeLoveless.js",
+  "dependencies": {
+    "@sapphire/time-utilities": "^1.7.14",
+    "colorette": "^2.0.20",
+    "discord.js": "^14.26.4"
+  },
+  "author": "Franz",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reiichi001/honeybeeloveless.git"
+  },
+  "homepage": "https://github.com/reiichi001/honeybeeloveless#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^20.12.12",
+    "eslint": "^9.39.4",
+    "globals": "^15.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node HoneyBeeLoveless.js"
+  },
+  "bugs": {
+    "url": "https://github.com/reiichi001/honeybeeloveless/issues"
+  }
+}
