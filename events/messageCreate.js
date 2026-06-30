@@ -27,7 +27,7 @@ module.exports = {
             );
 
             await guildMember.ban({
-                deleteMessageSeconds: 60 * 60,
+                deleteMessageSeconds: 60 * 60 * 24,
                 reason: `HoneyBot: ${author.username} (ID: ${author.id}) sent a message in honeypot channel #${guildChannel.name}`
             });
             client.logger.debug(`Banned ${userNameFull} (ID: ${author.id}) from ${guild.name}.`);
